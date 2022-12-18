@@ -1,7 +1,7 @@
 from django.db import models
 
-from uploader.models import Image
 from core.models import Autor, Categoria, Editora
+from uploader.models import Image
 
 
 class Livro(models.Model):
